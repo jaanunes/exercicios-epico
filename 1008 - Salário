@@ -1,0 +1,18 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main(){
+    int N,hora;
+    double valor, salario;
+
+    cin >> N >> hora >> valor;
+
+    salario = hora * valor;
+
+    cout << "NUMBER = " << N << endl;
+    cout << fixed << setprecision(2) << "SALARY = U$ " << salario << endl;
+
+return 0;
+
+}
